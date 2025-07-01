@@ -19,7 +19,7 @@ class HiltModule {
   fun providesAuthetication(): FirebaseAuth = Firebase.auth
 
   @Provides
-  fun providesFirestore():  FirebaseFirestore= Firebase.firestore
+  fun providesFirestore(): FirebaseFirestore = Firebase.firestore
 
   @Provides
   fun providesFireStorage(): FirebaseStorage = Firebase.storage
